@@ -1,7 +1,6 @@
-package util;
-import entity.Flight;
+package com.company.util;
+import com.company.entity.Flight;
 
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -16,7 +15,7 @@ public class flightUtil {
         int id = Integer.parseInt(flightArr[0]);
         int plane_id = Integer.parseInt(flightArr[1]);
         int pilot_id = Integer.parseInt(flightArr[2]);
-       Date data = ??????(flightArr[3]);
+        String data = flightArr[3];
 //         time = StrToTime(flightArr[4]);
 
         String time = flightArr[4];

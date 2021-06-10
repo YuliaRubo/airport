@@ -1,18 +1,18 @@
-CREATE DATABASE  Airport_pr;
+CREATE DATABASE  Airport_db2;
 
-USE  Airport_pr;
-CREATE TABLE Pilot
+USE  Airport_db2;
+CREATE TABLE pilot
 (
 id INT  AUTO_INCREMENT,
-Firstname VARCHAR (50) NOT NULL,
-Lastname VARCHAR (50) NOT NULL,
-p_rank VARCHAR (50) NOT NULL,
-p_code VARCHAR (50) UNIQUE,
+firstname VARCHAR (50) NOT NULL,
+lastname VARCHAR (50) NOT NULL,
+rank VARCHAR (50) NOT NULL,
+code VARCHAR (50) UNIQUE,
 PRIMARY KEY(id)
 );
 
-USE  Airport_pr;
-CREATE TABLE Plane
+USE  Airport_db2;
+CREATE TABLE plane
 (
 id INT AUTO_INCREMENT,
 brand VARCHAR (50) NOT NULL,
@@ -22,8 +22,8 @@ number_plane INT UNIQUE,
 PRIMARY KEY(id)
 );
 
-USE  Airport_pr;
-CREATE TABLE Flight
+USE  Airport_db2;
+CREATE TABLE flight
 (
 id INT AUTO_INCREMENT,
 plane_id INT,

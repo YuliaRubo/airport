@@ -1,4 +1,4 @@
-package entity;
+package com.company.entity;
 
 public class Pilot {
     private int id;
@@ -31,6 +31,10 @@ public class Pilot {
 
     public String getCode() {
         return code;
+    }
+
+    public String getRank() {
+        return rank;
     }
 
     public void setId(int id) {

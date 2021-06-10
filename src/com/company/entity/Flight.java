@@ -1,26 +1,19 @@
-package entity;
-
-
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
+package com.company.entity;
 
 
 public class Flight {
     private int id;
     private int plane_id;
     private int pilot_id;
-    private Date data;
+    private String data;
     private String time;
     private String number_flight;
 
-    public Flight(int id, int plane_id, int pilot_id, Date data, String time, String number_flight) {
+    public Flight(int id, int plane_id, int pilot_id, String data, String time, String number_flight) {
         this.id = id;
         this.plane_id = plane_id;
         this.pilot_id = pilot_id;
-        this.data = this.data;
+        this.data = data;
         this.time = time;
         this.number_flight = number_flight;
     }

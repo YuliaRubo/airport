@@ -1,7 +1,7 @@
-package util;
+package com.company.util;
 
-import entity.Pilot;
-import entity.Plane;
+import com.company.entity.Pilot;
+import com.company.entity.Plane;
 
 public class planeUtil {
     public static Plane toObject (String line) {

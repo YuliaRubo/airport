@@ -1,9 +1,9 @@
-package reader;
+package com.company.reader;
 
-import entity.Pilot;
-import entity.Plane;
-import exaption.EmtySourceFile;
-import util.planeUtil;
+import com.company.entity.Pilot;
+import com.company.entity.Plane;
+import com.company.exaption.EmtySourceFile;
+import com.company.util.planeUtil;
 
 import java.io.*;
 import java.util.ArrayList;

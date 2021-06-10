@@ -1,7 +1,7 @@
-package util;
+package com.company.util;
 
-import entity.Pilot;
-import entity.Rank;
+import com.company.entity.Pilot;
+import com.company.entity.Rank;
 
 public class pilotUtil {
     public static Pilot toObject (String line) {
