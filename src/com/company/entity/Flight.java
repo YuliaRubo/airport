@@ -5,21 +5,43 @@ public class Flight {
     private int id;
     private int plane_id;
     private int pilot_id;
-    private String data;
-    private String time;
+    private String data_flight;
+    private String time_flight;
     private String number_flight;
 
-    public Flight(int id, int plane_id, int pilot_id, String data, String time, String number_flight) {
+    public Flight(int id, int plane_id, int pilot_id, String data_flight, String time_flight, String number_flight) {
         this.id = id;
         this.plane_id = plane_id;
         this.pilot_id = pilot_id;
-        this.data = data;
-        this.time = time;
+        this.data_flight = data_flight;
+        this.time_flight = time_flight;
         this.number_flight = number_flight;
     }
 
 
+    public int getId() {
+        return id;
+    }
 
+    public int getPlane_id() {
+        return plane_id;
+    }
+
+    public int  getPilot_id() {
+        return pilot_id;
+    }
+
+    public String getData_flight() {
+        return data_flight;
+    }
+
+    public String getTime_flight() {
+        return time_flight;
+    }
+
+    public String getNumber_flight() {
+        return number_flight;
+    }
 
     @Override
     public String toString() {
@@ -27,8 +49,8 @@ public class Flight {
                 "id=" + id +
                 ", plane_id=" + plane_id +
                 ", pilot_id=" + pilot_id +
-                ", data='" + data + '\'' +
-                ", time='" + time + '\'' +
+                ", data='" + data_flight + '\'' +
+                ", time='" + time_flight + '\'' +
                 ", number_flight='" + number_flight + '\'' +
                 '}'+'\n';
     }

@@ -11,7 +11,7 @@ import java.util.List;
 
 public class pilotDbWriter {
 
-    private static final String INSERT = "INSERT INTO pilot (id, firstname, lastname, rank, code) VALUES(?,?,?,?,?)";
+    private static final String INSERT = "INSERT INTO pilot (id, firstname, lastname, rank, code1) VALUES(?,?,?,?,?)";
 
     public static void insert(List<Pilot> pilots) {
         for (Pilot pilot : pilots) {

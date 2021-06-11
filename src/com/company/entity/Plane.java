@@ -4,15 +4,15 @@ public class Plane {
     private int id;
     private String brand;
     private String model;
-    private int number_Passenger;
-    private int number ;
+    private int number_passenger;
+    private int number_plane;
 
-    public Plane(int id, String brand, String model, int number_Passenger, int number) {
+    public Plane(int id, String brand, String model, int number_passenger, int number_plane) {
         this.id = id;
         this.brand = brand;
         this.model = model;
-        this.number_Passenger = number_Passenger;
-        this.number = number;
+        this.number_passenger = number_passenger;
+        this.number_plane = number_plane;
     }
 
     public int getId() {
@@ -28,11 +28,11 @@ public class Plane {
     }
 
     public int getNumberPassenger() {
-        return number_Passenger;
+        return number_passenger;
     }
 
-    public int getNumber() {
-        return number;
+    public int getNumberPlane() {
+        return number_plane;
     }
 
     @Override
@@ -41,8 +41,8 @@ public class Plane {
                 "id=" + id +
                 ", brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
-                ", number_Passenger=" + number_Passenger +
-                ", number=" + number +
+                ", number_Passenger=" + number_passenger +
+                ", number_plane=" + number_plane +
                 '}'+"\n";
     }
 }

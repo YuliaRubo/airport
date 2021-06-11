@@ -5,14 +5,14 @@ public class Pilot {
     private String firstname;
     private String lastname;
     private String rank;
-    private String code;
+    private String code1;
 
-    public Pilot(int id, String firstname, String lastname, String rank, String code) {
+    public Pilot(int id, String firstname, String lastname, String rank, String code1) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
         this.rank = rank;
-        this.code = code;
+        this.code1 = code1;
     }
 
     public int getId() {
@@ -30,7 +30,7 @@ public class Pilot {
 
 
     public String getCode() {
-        return code;
+        return code1;
     }
 
     public String getRank() {
@@ -52,7 +52,7 @@ public class Pilot {
 
 
     public void setCode(String code) {
-        this.code = code;
+        this.code1 = code1;
     }
 
     @Override
@@ -62,7 +62,7 @@ public class Pilot {
                 ", firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
                 ", rank=" + rank +
-                ", code='" + code + '\'' +
+                ", code1='" + code1 + '\'' +
                 '}'+"\n";
     }
 }
